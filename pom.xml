@@ -5,20 +5,20 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.uade.prog3</groupId>
-    <artifactId>quien-es-quien</artifactId>
+    <artifactId>adivina-quien</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
-    <name>Quien es Quien - TP Parcial 1</name>
+    <name>Adivina Quien - TP Parcial 1</name>
     <description>
-        Juego de adivinanzas (estilo "Quien es Quien") que aplica Divide y Conquista,
+        Juego de adivinanzas (estilo "Adivina Quien") que aplica Divide y Conquista,
         Merge Sort, Quick Sort, Busqueda Binaria y una estrategia Greedy.
     </description>
 
     <properties>
         <maven.compiler.release>17</maven.compiler.release>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <exec.mainClass>quienesquien.Main</exec.mainClass>
+        <exec.mainClass>adivinaquien.Main</exec.mainClass>
         <junit.version>5.10.0</junit.version>
     </properties>
 
@@ -32,7 +32,7 @@
     </dependencies>
 
     <build>
-        <finalName>quien-es-quien</finalName>
+        <finalName>adivina-quien</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -56,7 +56,7 @@
                 </configuration>
             </plugin>
 
-            <!-- Genera un jar ejecutable:  java -jar target/quien-es-quien.jar -->
+            <!-- Genera un jar ejecutable:  java -jar target/adivina-quien.jar -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
