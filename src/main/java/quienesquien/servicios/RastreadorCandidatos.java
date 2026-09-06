@@ -1,10 +1,11 @@
-package com.uade.prog3.quienesquien.juego;
+package quienesquien.servicios;
 
-import com.uade.prog3.quienesquien.estructuras.BusquedaBinaria;
-import com.uade.prog3.quienesquien.estructuras.MergeSort;
-import com.uade.prog3.quienesquien.modelo.Comparadores;
-import com.uade.prog3.quienesquien.modelo.Personaje;
-import com.uade.prog3.quienesquien.modelo.Pregunta;
+import quienesquien.estructuras.BusquedaBinaria;
+import quienesquien.estructuras.MergeSort;
+import quienesquien.interfaces.Registro;
+import quienesquien.modelo.Comparadores;
+import quienesquien.modelo.Personaje;
+import quienesquien.modelo.Pregunta;
 
 import java.util.ArrayList;
 import java.util.Collections;

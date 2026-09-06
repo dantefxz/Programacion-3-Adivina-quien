@@ -1,7 +1,7 @@
-package com.uade.prog3.quienesquien.juego;
+package quienesquien.interfaces;
 
-import com.uade.prog3.quienesquien.modelo.Personaje;
-import com.uade.prog3.quienesquien.modelo.Pregunta;
+import quienesquien.modelo.Personaje;
+import quienesquien.modelo.Pregunta;
 
 /** Lo que un jugador hace en su turno: preguntar o adivinar. */
 public sealed interface Accion permits Accion.Preguntar, Accion.Adivinar {

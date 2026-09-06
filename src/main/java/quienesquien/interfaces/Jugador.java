@@ -1,6 +1,6 @@
-package com.uade.prog3.quienesquien.juego;
+package quienesquien.interfaces;
 
-import com.uade.prog3.quienesquien.modelo.Pregunta;
+import quienesquien.modelo.Pregunta;
 
 /** Interfaz comun a humano y maquina, para que el motor los trate igual. */
 public interface Jugador {

@@ -1,6 +1,6 @@
-package com.uade.prog3.quienesquien;
+package quienesquien;
 
-import com.uade.prog3.quienesquien.estructuras.MergeSort;
+import quienesquien.estructuras.MergeSort;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;

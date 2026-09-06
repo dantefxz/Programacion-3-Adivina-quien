@@ -1,4 +1,4 @@
-package com.uade.prog3.quienesquien.modelo;
+package quienesquien.modelo;
 
 /** NINGUNO es el color de los calvos, asi el atributo nunca queda en null. */
 public enum ColorPelo {

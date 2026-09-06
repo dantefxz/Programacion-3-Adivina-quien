@@ -1,15 +1,16 @@
-package com.uade.prog3.quienesquien.ui;
+package quienesquien.ui;
 
-import com.uade.prog3.quienesquien.juego.Accion;
-import com.uade.prog3.quienesquien.juego.Arbitro;
-import com.uade.prog3.quienesquien.juego.Jugador;
-import com.uade.prog3.quienesquien.juego.JugadorHumanoSwing;
-import com.uade.prog3.quienesquien.juego.JugadorMaquina;
-import com.uade.prog3.quienesquien.juego.MotorPartida;
-import com.uade.prog3.quienesquien.juego.PreparacionJuego;
-import com.uade.prog3.quienesquien.juego.Registro;
-import com.uade.prog3.quienesquien.modelo.Personaje;
-import com.uade.prog3.quienesquien.modelo.Pregunta;
+import quienesquien.interfaces.Accion;
+import quienesquien.interfaces.Arbitro;
+import quienesquien.servicios.ArbitroClasico;
+import quienesquien.interfaces.Jugador;
+import quienesquien.servicios.JugadorHumanoSwing;
+import quienesquien.servicios.JugadorMaquina;
+import quienesquien.servicios.MotorPartida;
+import quienesquien.servicios.PreparacionJuego;
+import quienesquien.interfaces.Registro;
+import quienesquien.modelo.Personaje;
+import quienesquien.modelo.Pregunta;
 
 import javax.swing.BorderFactory;
 import javax.swing.BoxLayout;
@@ -136,7 +137,7 @@ public class PantallaHumanoVsMaquina extends JPanel {
 
         humano = new JugadorHumanoSwing("Vos", roster, log);
         maquina = new JugadorMaquina("Maquina", roster, log);
-        Arbitro arbitro = new Arbitro();
+        Arbitro arbitro = new ArbitroClasico();
         arbitro.registrarSecreto("Vos", elegido);
         arbitro.registrarSecreto("Maquina", secretoMaquina);
         motor = new MotorPartida(humano, maquina, arbitro, log);

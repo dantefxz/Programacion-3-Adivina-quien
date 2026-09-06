@@ -1,12 +1,12 @@
-package com.uade.prog3.quienesquien;
+package quienesquien;
 
-import com.uade.prog3.quienesquien.juego.EstrategiaMaquina;
-import com.uade.prog3.quienesquien.juego.PreparacionJuego;
-import com.uade.prog3.quienesquien.juego.RastreadorCandidatos;
-import com.uade.prog3.quienesquien.juego.Registro;
-import com.uade.prog3.quienesquien.juego.RegistroSilencioso;
-import com.uade.prog3.quienesquien.modelo.Personaje;
-import com.uade.prog3.quienesquien.modelo.Pregunta;
+import quienesquien.servicios.EstrategiaGreedy;
+import quienesquien.servicios.PreparacionJuego;
+import quienesquien.servicios.RastreadorCandidatos;
+import quienesquien.interfaces.Registro;
+import quienesquien.servicios.RegistroSilencioso;
+import quienesquien.modelo.Personaje;
+import quienesquien.modelo.Pregunta;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
@@ -26,7 +26,7 @@ class EstrategiaMaquinaTest {
     @Test
     void laPrimeraPreguntaParteElConjuntoCasiALaMitad() {
         RastreadorCandidatos rastreador = new RastreadorCandidatos(rosterOrdenado(), SILENCIO);
-        Pregunta elegida = new EstrategiaMaquina(rastreador, SILENCIO).mejorPregunta();
+        Pregunta elegida = new EstrategiaGreedy(rastreador, SILENCIO).mejorPregunta();
         assertNotNull(elegida);
 
         int si = 0;

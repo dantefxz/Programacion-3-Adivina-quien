@@ -1,9 +1,10 @@
-package com.uade.prog3.quienesquien.juego;
+package quienesquien.servicios;
 
-import com.uade.prog3.quienesquien.datos.RepositorioPersonajes;
-import com.uade.prog3.quienesquien.estructuras.MergeSort;
-import com.uade.prog3.quienesquien.modelo.Comparadores;
-import com.uade.prog3.quienesquien.modelo.Personaje;
+import quienesquien.datos.RepositorioPersonajes;
+import quienesquien.estructuras.MergeSort;
+import quienesquien.interfaces.Registro;
+import quienesquien.modelo.Comparadores;
+import quienesquien.modelo.Personaje;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.uade.prog3.quienesquien.estructuras;
+package quienesquien.estructuras;
 
 import java.util.Comparator;
 import java.util.List;

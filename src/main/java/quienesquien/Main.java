@@ -1,6 +1,6 @@
-package com.uade.prog3.quienesquien;
+package quienesquien;
 
-import com.uade.prog3.quienesquien.ui.VentanaPrincipal;
+import quienesquien.ui.VentanaPrincipal;
 
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;

@@ -1,9 +1,9 @@
-package com.uade.prog3.quienesquien.estructuras;
+package quienesquien.estructuras;
 
-import com.uade.prog3.quienesquien.modelo.ColorPelo;
-import com.uade.prog3.quienesquien.modelo.Comparadores;
-import com.uade.prog3.quienesquien.modelo.Genero;
-import com.uade.prog3.quienesquien.modelo.Personaje;
+import quienesquien.modelo.ColorPelo;
+import quienesquien.modelo.Comparadores;
+import quienesquien.modelo.Genero;
+import quienesquien.modelo.Personaje;
 
 import java.util.ArrayList;
 import java.util.Comparator;

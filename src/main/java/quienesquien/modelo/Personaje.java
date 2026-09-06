@@ -1,4 +1,4 @@
-package com.uade.prog3.quienesquien.modelo;
+package quienesquien.modelo;
 
 /** Un personaje del tablero. El id lo asigna PreparacionJuego antes de ordenar. */
 public class Personaje {

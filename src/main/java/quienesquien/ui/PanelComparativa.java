@@ -1,6 +1,6 @@
-package com.uade.prog3.quienesquien.ui;
+package quienesquien.ui;
 
-import com.uade.prog3.quienesquien.estructuras.OrdenadorComparativa;
+import quienesquien.estructuras.OrdenadorComparativa;
 
 import javax.swing.BorderFactory;
 import javax.swing.JButton;

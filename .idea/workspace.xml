@@ -4,11 +4,52 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f35f601-b6ae-4f9d-ad35-d16fb1ef60fd" name="Changes" comment="" />
+    <list default="true" id="5f35f601-b6ae-4f9d-ad35-d16fb1ef60fd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quienesquien/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quienesquien/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quienesquien/datos/RepositorioPersonajes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quienesquien/datos/RepositorioPersonajes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quienesquien/estructuras/BusquedaBinaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quienesquien/estructuras/BusquedaBinaria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quienesquien/estructuras/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quienesquien/estructuras/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quienesquien/estructuras/OrdenadorComparativa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quienesquien/estructuras/OrdenadorComparativa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quienesquien/estructuras/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quienesquien/estructuras/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quienesquien/interfaces/Accion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quienesquien/interfaces/Accion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quienesquien/interfaces/Arbitro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quienesquien/interfaces/Arbitro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quienesquien/interfaces/EstrategiaMaquina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quienesquien/interfaces/EstrategiaMaquina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quienesquien/interfaces/Jugador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quienesquien/interfaces/Jugador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quienesquien/interfaces/Registro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quienesquien/interfaces/Registro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quienesquien/modelo/ColorPelo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quienesquien/modelo/ColorPelo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quienesquien/modelo/Comparadores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quienesquien/modelo/Comparadores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quienesquien/modelo/Genero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quienesquien/modelo/Genero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quienesquien/modelo/Personaje.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quienesquien/modelo/Personaje.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quienesquien/modelo/Pregunta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quienesquien/modelo/Pregunta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quienesquien/servicios/JugadorBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quienesquien/servicios/JugadorBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quienesquien/servicios/JugadorHumanoSwing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quienesquien/servicios/JugadorHumanoSwing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quienesquien/servicios/JugadorMaquina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quienesquien/servicios/JugadorMaquina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quienesquien/servicios/MotorPartida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quienesquien/servicios/MotorPartida.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quienesquien/servicios/PreparacionJuego.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quienesquien/servicios/PreparacionJuego.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quienesquien/servicios/RastreadorCandidatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quienesquien/servicios/RastreadorCandidatos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quienesquien/servicios/RegistroSilencioso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quienesquien/servicios/RegistroSilencioso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quienesquien/ui/PanelComparativa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quienesquien/ui/PanelComparativa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quienesquien/ui/PanelTablero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quienesquien/ui/PanelTablero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quienesquien/ui/PantallaHumanoVsMaquina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quienesquien/ui/PantallaHumanoVsMaquina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quienesquien/ui/PantallaMaquinaVsMaquina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quienesquien/ui/PantallaMaquinaVsMaquina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quienesquien/ui/RegistroSwing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quienesquien/ui/RegistroSwing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quienesquien/ui/TarjetaPersonaje.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quienesquien/ui/TarjetaPersonaje.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quienesquien/ui/VentanaPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quienesquien/ui/VentanaPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/quienesquien/BusquedaBinariaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/quienesquien/BusquedaBinariaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/quienesquien/EstrategiaMaquinaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/quienesquien/EstrategiaMaquinaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/quienesquien/MergeSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/quienesquien/MergeSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/quienesquien/PartidaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/quienesquien/PartidaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/quienesquien/QuickSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/quienesquien/QuickSortTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -25,6 +66,8 @@
     "JUnit.QuickSortTest.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/dferm/OneDrive/Desktop/UADE/Programación 3 2026/TP Parcial 1 7 sep/pom.xml",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",

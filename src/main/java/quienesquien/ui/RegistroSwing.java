@@ -1,7 +1,7 @@
-package com.uade.prog3.quienesquien.ui;
+package quienesquien.ui;
 
-import com.uade.prog3.quienesquien.juego.Registro;
-import com.uade.prog3.quienesquien.modelo.Personaje;
+import quienesquien.interfaces.Registro;
+import quienesquien.modelo.Personaje;
 
 import javax.swing.JTextArea;
 import java.util.List;

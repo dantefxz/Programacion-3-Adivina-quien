@@ -1,6 +1,6 @@
-package com.uade.prog3.quienesquien;
+package quienesquien;
 
-import com.uade.prog3.quienesquien.estructuras.BusquedaBinaria;
+import quienesquien.estructuras.BusquedaBinaria;
 import org.junit.jupiter.api.Test;
 
 import java.util.Comparator;

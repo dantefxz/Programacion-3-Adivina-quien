@@ -1,4 +1,4 @@
-package com.uade.prog3.quienesquien.modelo;
+package quienesquien.modelo;
 
 import java.util.Comparator;
 

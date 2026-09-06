@@ -1,7 +1,9 @@
-package com.uade.prog3.quienesquien.juego;
+package quienesquien.servicios;
 
-import com.uade.prog3.quienesquien.modelo.Personaje;
-import com.uade.prog3.quienesquien.modelo.Pregunta;
+import quienesquien.interfaces.Jugador;
+import quienesquien.interfaces.Registro;
+import quienesquien.modelo.Personaje;
+import quienesquien.modelo.Pregunta;
 
 import java.util.List;
 

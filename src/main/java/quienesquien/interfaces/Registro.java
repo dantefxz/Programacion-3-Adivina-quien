@@ -1,6 +1,6 @@
-package com.uade.prog3.quienesquien.juego;
+package quienesquien.interfaces;
 
-import com.uade.prog3.quienesquien.modelo.Personaje;
+import quienesquien.modelo.Personaje;
 
 import java.util.List;
 

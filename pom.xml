@@ -18,7 +18,7 @@
     <properties>
         <maven.compiler.release>17</maven.compiler.release>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <exec.mainClass>com.uade.prog3.quienesquien.Main</exec.mainClass>
+        <exec.mainClass>quienesquien.Main</exec.mainClass>
         <junit.version>5.10.0</junit.version>
     </properties>
 

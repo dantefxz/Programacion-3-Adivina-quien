@@ -1,4 +1,9 @@
-package com.uade.prog3.quienesquien.juego;
+package quienesquien.servicios;
+
+import quienesquien.interfaces.Accion;
+import quienesquien.interfaces.Arbitro;
+import quienesquien.interfaces.Jugador;
+import quienesquien.interfaces.Registro;
 
 public class MotorPartida {
 

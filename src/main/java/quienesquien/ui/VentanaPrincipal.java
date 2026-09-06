@@ -1,4 +1,4 @@
-package com.uade.prog3.quienesquien.ui;
+package quienesquien.ui;
 
 import javax.swing.BorderFactory;
 import javax.swing.Box;

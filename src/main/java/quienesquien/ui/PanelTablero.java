@@ -1,6 +1,6 @@
-package com.uade.prog3.quienesquien.ui;
+package quienesquien.ui;
 
-import com.uade.prog3.quienesquien.modelo.Personaje;
+import quienesquien.modelo.Personaje;
 
 import javax.swing.JPanel;
 import java.awt.GridLayout;
