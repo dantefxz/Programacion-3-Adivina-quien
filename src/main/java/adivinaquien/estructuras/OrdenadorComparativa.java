@@ -107,7 +107,7 @@ public final class OrdenadorComparativa {
         for (int i = 0; i < n; i++) {
             boolean calvo = azar.nextInt(4) == 0;
             ColorPelo color = calvo ? ColorPelo.NINGUNO : colores[azar.nextInt(colores.length)];
-            lista.add(new Personaje("P" + i, generos[azar.nextInt(generos.length)], calvo, azar.nextBoolean(), color));
+            lista.add(new Personaje(i + 1, "P" + i, generos[azar.nextInt(generos.length)], calvo, azar.nextBoolean(), color));
         }
         return lista;
     }

@@ -21,9 +21,12 @@ public class JugadorMaquina extends JugadorBase {
     public Accion decidir() {
         log.traza("%s: %d candidatos posibles.", nombre, rastreador.cantidad());
 
-        if (rastreador.cantidad() <= 1) {
-            Personaje conjetura = rastreador.cantidad() == 1 ? rastreador.unico() : roster.get(0);
-            return adivinar(conjetura);
+        if (rastreador.cantidad() == 0) {
+            log.info("%s: no quedan candidatos consistentes con las respuestas recibidas.", nombre);
+            return adivinar(roster.get(0));
+        }
+        if (rastreador.cantidad() == 1) {
+            return adivinar(rastreador.unico());
         }
 
         Pregunta pregunta = estrategia.mejorPregunta();

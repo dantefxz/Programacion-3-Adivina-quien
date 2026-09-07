@@ -43,13 +43,4 @@ public abstract class JugadorBase implements Jugador {
     public List<Personaje> candidatosVivos() {
         return rastreador.vista();
     }
-
-    protected Personaje personajePorId(int id) {
-        for (Personaje p : roster) {
-            if (p.getId() == id) {
-                return p;
-            }
-        }
-        throw new IllegalArgumentException("No hay personaje con id " + id);
-    }
 }

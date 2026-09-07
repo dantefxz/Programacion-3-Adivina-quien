@@ -3,29 +3,26 @@ package adivinaquien.modelo;
 /** Un personaje del tablero. El id lo asigna PreparacionJuego antes de ordenar. */
 public class Personaje {
 
-    private int id;
+    private final int id;
     private final String nombre;
     private final Genero genero;
     private final boolean calvo;
     private final boolean lentes;
     private final ColorPelo colorPelo;
 
-    public Personaje(String nombre, Genero genero, boolean calvo, boolean lentes, ColorPelo colorPelo) {
+    public Personaje(int id, String nombre, Genero genero, boolean calvo, boolean lentes, ColorPelo colorPelo) {
         if (calvo && colorPelo != ColorPelo.NINGUNO) {
             throw new IllegalArgumentException("Un calvo va con ColorPelo.NINGUNO: " + nombre);
         }
         if (!calvo && colorPelo == ColorPelo.NINGUNO) {
             throw new IllegalArgumentException("Un personaje con pelo necesita color: " + nombre);
         }
+        this.id = id;
         this.nombre = nombre;
         this.genero = genero;
         this.calvo = calvo;
         this.lentes = lentes;
         this.colorPelo = colorPelo;
-    }
-
-    public void asignarId(int id) {
-        this.id = id;
     }
 
     public int getId() {

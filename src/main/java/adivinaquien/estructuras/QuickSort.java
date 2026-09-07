@@ -30,7 +30,8 @@ public final class QuickSort {
     }
 
     private static <T> int particionar(List<T> a, int lo, int hi, Comparator<? super T> cmp) {
-        T pivote = a.get(lo + AZAR.nextInt(hi - lo + 1));
+        Collections.swap(a, lo, lo + AZAR.nextInt(hi - lo + 1));
+        T pivote = a.get(lo);
         int i = lo - 1;
         int j = hi + 1;
         while (true) {
