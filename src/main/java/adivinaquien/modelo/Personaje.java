@@ -1,6 +1,6 @@
 package adivinaquien.modelo;
 
-/** Un personaje del tablero. El id lo asigna PreparacionJuego antes de ordenar. */
+/** Un personaje del tablero. El id y los atributos llegan por constructor. */
 public class Personaje {
 
     private final int id;
