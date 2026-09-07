@@ -11,7 +11,7 @@ import javax.swing.SwingWorker;
 import java.awt.BorderLayout;
 import java.awt.Font;
 
-/** Corre la comparativa Merge vs Quick y muestra el informe. */
+/** Corre la comparativa de ordenamientos y muestra el informe. */
 public class PanelComparativa extends JPanel {
 
     private final JTextArea area = new JTextArea();
@@ -23,7 +23,7 @@ public class PanelComparativa extends JPanel {
 
         area.setEditable(false);
         area.setFont(new Font(Font.MONOSPACED, Font.PLAIN, 13));
-        area.setText("Apreta \"Ejecutar comparativa\".\nOrdena listas grandes con los dos algoritmos, puede tardar unos segundos.");
+        area.setText("Apreta \"Ejecutar comparativa\".\nOrdena la lista de 23 personajes y tambien listas grandes, puede tardar unos segundos.");
 
         JPanel barra = new JPanel();
         botonEjecutar.addActionListener(e -> ejecutar());

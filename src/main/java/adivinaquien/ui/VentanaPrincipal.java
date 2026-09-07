@@ -50,7 +50,7 @@ public class VentanaPrincipal extends JFrame {
         panel.add(botonMenu("Maquina vs Maquina (con traza)",
                 () -> abrir(new PantallaMaquinaVsMaquina(this::volverAlMenu))));
         panel.add(Box.createVerticalStrut(12));
-        panel.add(botonMenu("Comparativa Merge Sort vs Quick Sort",
+        panel.add(botonMenu("Comparativa de ordenamientos",
                 () -> abrir(new PanelComparativa(this::volverAlMenu))));
 
         return panel;
