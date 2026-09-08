@@ -2,7 +2,7 @@ package adivinaquien.servicios;
 
 import adivinaquien.estructuras.BusquedaBinaria;
 import adivinaquien.estructuras.MergeSort;
-import adivinaquien.interfaces.Registro;
+import adivinaquien.interfaces.SalidaTraza;
 import adivinaquien.modelo.Comparadores;
 import adivinaquien.modelo.Personaje;
 import adivinaquien.modelo.Pregunta;
@@ -18,9 +18,9 @@ import java.util.List;
 public class RastreadorCandidatos {
 
     private final List<Personaje> candidatos;
-    private final Registro log;
+    private final SalidaTraza log;
 
-    public RastreadorCandidatos(List<Personaje> rosterOrdenado, Registro log) {
+    public RastreadorCandidatos(List<Personaje> rosterOrdenado, SalidaTraza log) {
         this.candidatos = new ArrayList<>(rosterOrdenado);
         this.log = log;
     }

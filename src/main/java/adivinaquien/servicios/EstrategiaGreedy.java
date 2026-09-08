@@ -1,7 +1,7 @@
 package adivinaquien.servicios;
 
 import adivinaquien.interfaces.EstrategiaMaquina;
-import adivinaquien.interfaces.Registro;
+import adivinaquien.interfaces.SalidaTraza;
 import adivinaquien.modelo.Personaje;
 import adivinaquien.modelo.Pregunta;
 
@@ -10,9 +10,9 @@ import java.util.List;
 public class EstrategiaGreedy implements EstrategiaMaquina {
 
     private final RastreadorCandidatos rastreador;
-    private final Registro log;
+    private final SalidaTraza log;
 
-    public EstrategiaGreedy(RastreadorCandidatos rastreador, Registro log) {
+    public EstrategiaGreedy(RastreadorCandidatos rastreador, SalidaTraza log) {
         this.rastreador = rastreador;
         this.log = log;
     }

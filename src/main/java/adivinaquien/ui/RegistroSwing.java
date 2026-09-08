@@ -54,8 +54,4 @@ public class RegistroSwing implements Registro {
         }
     }
 
-    @Override
-    public boolean esVerboso() {
-        return verboso;
-    }
 }

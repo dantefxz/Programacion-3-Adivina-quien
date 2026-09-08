@@ -27,9 +27,4 @@ public final class RegistroSilencioso implements Registro {
     @Override
     public void tablaTraza(List<Personaje> personajes) {
     }
-
-    @Override
-    public boolean esVerboso() {
-        return false;
-    }
 }

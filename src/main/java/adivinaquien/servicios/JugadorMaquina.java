@@ -13,8 +13,12 @@ public class JugadorMaquina extends JugadorBase {
     private final EstrategiaMaquina estrategia;
 
     public JugadorMaquina(String nombre, List<Personaje> rosterOrdenado, Registro log) {
+        this(nombre, rosterOrdenado, log, null);
+    }
+
+    public JugadorMaquina(String nombre, List<Personaje> rosterOrdenado, Registro log, EstrategiaMaquina estrategia) {
         super(nombre, rosterOrdenado, log);
-        this.estrategia = new EstrategiaGreedy(rastreador, log);
+        this.estrategia = (estrategia != null) ? estrategia : new EstrategiaGreedy(rastreador, log);
     }
 
     @Override

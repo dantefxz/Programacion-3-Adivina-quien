@@ -3,21 +3,21 @@ package adivinaquien.servicios;
 import adivinaquien.interfaces.Accion;
 import adivinaquien.interfaces.Arbitro;
 import adivinaquien.interfaces.Jugador;
-import adivinaquien.interfaces.Registro;
+import adivinaquien.interfaces.SalidaJuego;
 
 public class MotorPartida {
 
     private static final int MAX_TURNOS = 60;
 
     private final Arbitro arbitro;
-    private final Registro log;
+    private final SalidaJuego log;
     private Jugador actual;
     private Jugador rival;
     private Jugador ganador;
     private Accion ultimaAccion;
     private int turno;
 
-    public MotorPartida(Jugador jugadorA, Jugador jugadorB, Arbitro arbitro, Registro log) {
+    public MotorPartida(Jugador jugadorA, Jugador jugadorB, Arbitro arbitro, SalidaJuego log) {
         this.actual = jugadorA;
         this.rival = jugadorB;
         this.arbitro = arbitro;
